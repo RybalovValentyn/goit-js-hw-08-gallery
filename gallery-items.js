@@ -158,7 +158,9 @@ function galleryImageNext(){
 
 function galleryImagePrevious(){
   indexEl -= 1;
-  if (indexEl > 0) { 
+  if (indexEl > 0) {
+    
+    
     modalImg.src = " ";
     modalImg.src = gallery[indexEl].original;
     console.log(indexEl);
